@@ -1,0 +1,243 @@
+* {
+    margin: 0px;
+}
+
+
+body {
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FEFEFE;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", system-ui;
+}
+
+
+h1 {
+    color: #F2F2F2;
+
+    /* h1 - title */
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 120%; /* 96px */
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+}
+
+
+h6 {
+    color: #235959;
+
+    /* h6 - categories */
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 120%; /* 25.2px */
+    letter-spacing: 0.42px;
+}
+
+
+p {
+    color: #181B1B;
+
+    /* paragraph */
+    font-size: 16px;
+    line-height: 20px; /* 125% */
+    letter-spacing: 0.48px;
+}
+
+
+header {
+    display: flex;
+    height: 100px;
+    padding: 0 120px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    background: #F2F2F2;
+
+    /* navShadow */
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.24);
+}
+
+
+.nameLogoWrapper {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+
+nav a {
+    color: #235959;
+
+    /* paragraph */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 125% */
+    letter-spacing: 0.48px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: color 0.2s ease, text-decoration 0.2s ease;
+}
+
+
+nav a:hover {
+    color: #AC7E56;
+    transition: color 0.2s ease, text-decoration 0.2s ease;
+}
+
+
+nav a.current {
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    text-decoration-color: #235959;
+    text-decoration-thickness: 2px;
+}
+
+
+nav a.current:hover {
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    text-decoration-color: #235959;
+    text-decoration-thickness: 2px;
+    color: #235959;
+}
+
+
+section.pageTitle {
+    height: 128px;
+    align-items: center;
+    align-self: stretch;
+    background: #235959;
+}
+
+
+.pageTitleWrapper {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+.thickLineAbout1 {
+    width: 305px;
+    height: 8px;
+    flex-shrink: 0;
+    background: #F2F2F2;
+    margin-top: 37px;
+    margin-left: 102px;
+    position: absolute;
+}
+
+
+h1.about {
+    margin-top: 16px;
+    margin-left: 407px;
+    position: absolute;
+}
+
+
+.thickLineAbout2 {
+    width: 383px;
+    height: 8px;
+    flex-shrink: 0;
+    background: #F2F2F2;
+    margin-top: 85px;
+    margin-left: 715px;
+    position: absolute;
+}
+
+
+section.gifWrapper {
+    width: 1200px;
+    height: 640px;
+    background: #F2F2F2;
+
+    /* sectionShadow */
+    box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.16);
+}
+
+
+img.logoGif {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 10% top;
+}
+
+
+section.aboutMain {
+    display: flex;
+    width: 1000px;
+    padding: 32px 100px 128px 100px;
+    align-items: center;
+    gap: 20px;
+    background: #F2F2F2;
+    text-align: justify;
+
+    /* sectionShadow */
+    box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.16);
+}
+
+
+
+.profilePhotoWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+img.profilePhoto {
+    object-fit: cover;
+}
+
+
+footer {
+    display: flex;
+    height: 42px;
+    padding: 13px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+    background: #235959;
+    color: #FEFEFE;
+
+    /* caption */
+    font-size: 12px;
+    line-height: 16px; /* 133.333% */
+    letter-spacing: 0.36px;
+}
+
+
+footer a {
+    color: #FEFEFE;
+
+    /* caption */
+    font-size: 12px;
+    line-height: 16px; /* 133.333% */
+    letter-spacing: 0.36px;
+    text-decoration: none;
+    transition: color 0.2s ease, text-decoration 0.2s ease;
+}
+
+
+footer a:hover {
+    color: #F2B279;
+    transition: color 0.2s ease, text-decoration 0.2s ease;
+}
