@@ -1,0 +1,237 @@
+body {
+    background-color: #0c4365;
+    margin: 0px;
+}
+
+/* -- Top Portion -- */
+.top {
+    background-color: #f27d7d;
+    text-align: center;
+}
+section .portrait {
+    width: 1300px;
+    height: auto;
+    margin: -55px 0px -90px 0px;
+}
+header{
+    border-bottom: 5px solid white;
+}
+
+/* -- Links -- */
+nav {
+    background-color: #0c4365;
+    padding: 30px 0px 30px 0px;
+}
+nav a {
+    font-family: 'Josefin Sans';
+    color: #f27d7d;
+    font-weight:600;
+    font-size: 20px;
+    padding: 100px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+nav a:hover {
+    font-size: 25px;
+    color: #ffd48a;
+}
+
+/* -- Section Works -- */
+section {
+    font-family: 'Playpen sans';
+    color: #0c4365;
+    text-align: center;
+    font-size: 20px;
+}
+section a {
+    color: #f27d7d;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 35px;
+}
+section h1 {
+    font-family: 'Playpen Sans';
+    color: #0c4365;
+    font-size: 70px;
+    text-transform: uppercase;
+    
+}
+section h2 {
+    font-family: 'PlayPen Sans';
+    color: #f27d7d;
+    font-size: 35px;
+    text-transform: capitalize;
+}
+section .otherTitle {
+    margin: 150px 300 -10px 0px;
+    border-top: 5px solid white;
+    border-top-style: dashed;
+    border-bottom: 5px solid white;
+    border-bottom-style: dashed;
+    
+}
+
+/* -- Transition To Bottom -- */
+.separator{
+    background-color: #0c4365;
+    text-align: center;
+
+    margin: 0px;
+    padding: 3px;
+
+    border-top: 10px solid white;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+
+}
+.separator h2{
+    font-family: 'Josefin Sans';
+    color: #f27d7d;
+    font-size: 35px;
+    text-transform: uppercase;
+    line-height: 50px;
+    padding: 20px;
+}
+
+/* -- Cat GIF -- */
+.cat {
+    width: 200px;
+    height: auto;
+    margin-bottom: -98px;
+    padding-bottom: 88px;
+}
+
+/* -- Bottom Areas -- */
+.bottom {
+    background-color: white;
+    margin: 0px 50px 0px 50px;
+    padding: 100px;
+    border-radius: 50px;
+}
+.bottom .backToTop {
+    width: 10%;
+    position: fixed;
+    right: 0;
+    bottom:0;
+}
+#bottom .backToTop {
+    width: 10%;
+    position: fixed;
+    right: 0;
+    bottom:0;
+}
+#bottom {
+    margin: 0px 50px 0px 50px;
+    border-radius: 5%;
+}
+
+/* -- Home Page Boxes -- */
+.boxContainer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 20px 0;
+}
+.longBox {
+    border: 20px solid #ffd48a;
+    padding: 20px 70px 20px 70px;
+    margin: 20px;
+    text-align: center;
+    color: #0c4365;
+    font-family: 'Josefin Sans';
+    font-size: 20px;
+}
+.box {
+    flex: 1;
+    border: 20px solid #ffd48a;
+    padding: 60px;
+    margin: 20px;
+    max-width: 50%;
+    text-align: left;
+    color: #0c4365;
+    font-family: 'Josefin Sans';
+}
+.box, .longBox h3{
+    font-size: 27px;
+    padding-bottom: 4%;
+}
+.box, .longBox p{
+    font-weight: 600;
+    font-size: 20px;
+    text-align: justify;
+}
+.box li {
+    display: list-item;
+    list-style:disc inside;
+    padding-bottom: 11px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+/* -- Footer Edits --*/
+footer {
+    padding: 3%;
+    text-align: center;
+}
+footer a {
+    font-family: 'Josefin Sans';
+    font-size: 25px;
+    color: #ffd48a;
+    text-decoration: none;
+}
+
+/* -- List Edits -- */
+#bottom section img{
+    height: 400px;
+    width: auto;
+    border: 10px solid #ffd48a;
+}
+#bottom em {
+    text-transform: capitalize;
+    font-size: 15px;
+}
+#bottom li {
+    display: list-item;
+}
+#bottom ol, ul {
+    list-style: inside;
+}
+#bottom ol {
+    list-style: decimal inside;
+}
+#bottom dl{
+    display: flex;
+}
+#bottom dd{
+    font-family: 'Playpen Sans';
+    font-size: 15px;
+}
+#bottom dl img {
+    width: 100px;
+    height: auto;
+}
+/* -- List Backgrounds -- */
+#bottom .number, .bullet{
+    margin: 50px 250px 50px 250px;
+    padding: 20px 0px 20px 0px;
+    background-color: white;
+    border-radius: 50px;
+}
+#bottom .gamble{
+    padding: 5px 20px 5px 20px;
+    background-color: white;
+    border-radius: 50px;
+}
+
+/*
+#ffe6b1 - yellow color
+#ffd48a - lighter yellow (i use)
+#4F805A - pretty green
+#dd3b5e - pink
+#8cd9f6 - my usual blue
+#0c4365 - dark blue 
+#f27d7d - salmon
+
+
+
+*/
